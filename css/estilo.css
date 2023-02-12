@@ -1,0 +1,246 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Source Sans Pro';
+}
+/*=== Seção topo ===*/
+.topo{
+    margin: 0 auto;
+    
+   
+    
+}
+.links-topo{
+    display: flex;
+    font-size: 18px; 
+    text-transform: uppercase;
+    
+   
+ 
+      
+}
+
+.link-topo, .titulo{
+    text-decoration: none;
+    color: #90918A;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px;
+
+}
+.texto-azul{
+    color: #7698BB;
+}
+.container{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ 
+   
+
+}
+/*=== Seção banner ===*/
+.banner{
+    background-image: url('../assets/img-fundo.jpg');
+    background-size: cover;
+    height: 600px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info-banner{ 
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+    line-height: 60px;
+    padding: 20px 1px;
+    background-color: #009980ad;  
+}
+h1{
+    font-size: 40px;
+}
+.info-banner p{
+    font-size: 22px;
+}
+/*=== Seção conteúdo ===*/
+.conteudo{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #90918A;    
+}
+h3{
+    padding-top: 42px ;
+    padding-bottom: 20px ;
+}
+.conteudo p{
+    line-height: 32px;
+}
+/*=== Seção quartos ===*/
+.quartos{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.itens-quartos{
+    border-bottom: 2px solid #49997C;
+    margin: 15px;
+    width: 300px;
+    height: 280px;
+    position: relative;   
+}
+.itens-quartos img{
+    width: 300px;
+    height: 200px;   
+}
+.itens-quartos a{
+    position: absolute;
+    bottom: 0;
+    left: 70px;
+    text-decoration: none;
+    margin-bottom: 20px;  
+}
+.itens-quartos p{
+    text-transform: uppercase;
+    color: #90918A;   
+}
+/*=== Seção quartos ===*/
+.sobre{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    text-align: justify;   
+}
+.sobre img{
+    width: 100px;
+    height: 100px;
+}
+.pousada{
+    position: relative;  
+    width: 450px;
+    margin: 10px; 
+}
+.img-pousada{
+    position: absolute;
+    right: 0;
+    top:50px
+}
+.descricao{
+    position: relative; 
+    width: 450px;
+    margin: 10px;
+}
+.img-quartos{
+    position: absolute;
+    right: 0;
+    top:50px
+}
+.info1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;   
+}
+.info1 p{
+    line-height: 20px;
+    margin-right: 100px;
+}
+.alimentacao{
+    position: relative;   
+    width: 450px;
+    margin: 10px;   
+}
+.img-alimentacao{
+    position: absolute;
+    right: 0;
+    top:50px
+}
+.recepcao{
+    position: relative;
+
+    width: 450px;
+    margin: 10px;   
+}
+.recepcao img{
+    position: absolute;
+    right: 0;
+    top:50px
+}
+.info2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.info2 p{
+    line-height: 20px;
+}
+/*=== Seção Rodapé ===*/
+.rodape{
+    background-color: #49997C;
+    color: #ffffff;
+    font-size: 22px;
+    margin-top: 50px;   
+    
+}
+.contato{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    flex-wrap: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    
+     
+}
+.contato a{
+    text-decoration: none;
+    color: #ffffff;    
+}
+.rodape-final{
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid black;
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.area-contato{
+ 
+    display: flex;
+    align-content: center;
+    font-size: 18px; 
+    flex-wrap: wrap; 
+    padding: 10px;
+    
+} 
+    
+.icon{
+    display: flex;
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    
+    align-items: center;
+    
+}
+.contato p{
+    padding-bottom: 20px;
+}
