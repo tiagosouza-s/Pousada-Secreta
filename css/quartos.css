@@ -1,0 +1,34 @@
+.background{
+  background-image: url('../assets/img-fundo.jpg');
+  height: 200px;
+}
+
+h2{
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+ h3{
+  text-align: center;
+
+}
+img{
+  width: 330px;
+  height: 200px; 
+}
+
+.imagens{
+  display: flex;
+  justify-content: space-around;
+}
+.lista{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 65px;
+}
+.lista li{
+  width: 25%;
+  text-align: left;
+  margin-top: 10px;
+}
